@@ -6,6 +6,6 @@
   <packaging>pom</packaging>
   <modules><module>artifactory-core</module></modules>
   <properties>
-    <jfrog.access.version>7.201.2</jfrog.access.version>
+    <jfrog.access.version>7.204.2</jfrog.access.version>
   </properties>
 </project>
