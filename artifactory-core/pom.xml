@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.example.consumer</groupId>
+    <artifactId>artifactory-service-fixture</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>artifactory-core</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.example.access</groupId>
+      <artifactId>access-client</artifactId>
+      <version>${jfrog.access.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.opentelemetry</groupId>
+      <artifactId>core</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>
