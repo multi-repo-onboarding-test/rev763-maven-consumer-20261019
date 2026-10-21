@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules><module>artifactory-core</module></modules>
   <properties>
+    <!-- Representative inherited version used by the access-client dependency. -->
     <jfrog.access.version>7.204.2</jfrog.access.version>
   </properties>
 </project>
