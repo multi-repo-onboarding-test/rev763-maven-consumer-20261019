@@ -1,0 +1,4 @@
+# Representative REV-763 fixture, not customer configuration.
+version: 2
+knowledge_base:
+  automatic_linking_mode: auto
